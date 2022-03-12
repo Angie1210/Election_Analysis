@@ -21,6 +21,5 @@ The analysis of the election shos that:
 
 
 ## Election Audit Summary
-
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+This script can be implemented in other election analysis, for example you would only need to change the Database file, by changing the file_to_load variable, you will have to use the computer's directory path of the CSV database that you want to analyze.  Another modification that you would need to make is in the variables of the candidate_name and county_name, in order to assign the correct columns of our database.  Also, the PRINT commands, so it displays on your output the Strings that you want. The rest of the code, you can use it as it is, because we are reading the database, row by row extracting the information we need to create our dictionaries.
 
